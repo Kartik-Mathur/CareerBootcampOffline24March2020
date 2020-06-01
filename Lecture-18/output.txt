@@ -1,0 +1,24 @@
+Number of people 1 are required for probability 1
+Number of people 2 are required for probability 0.99726
+Number of people 3 are required for probability 0.991796
+Number of people 4 are required for probability 0.983644
+Number of people 5 are required for probability 0.972864
+Number of people 6 are required for probability 0.959537
+Number of people 7 are required for probability 0.943764
+Number of people 8 are required for probability 0.925665
+Number of people 9 are required for probability 0.905376
+Number of people 10 are required for probability 0.883052
+Number of people 11 are required for probability 0.858858
+Number of people 12 are required for probability 0.832975
+Number of people 13 are required for probability 0.80559
+Number of people 14 are required for probability 0.776897
+Number of people 15 are required for probability 0.747099
+Number of people 16 are required for probability 0.716396
+Number of people 17 are required for probability 0.684992
+Number of people 18 are required for probability 0.653088
+Number of people 19 are required for probability 0.620881
+Number of people 20 are required for probability 0.588561
+Number of people 21 are required for probability 0.556311
+Number of people 22 are required for probability 0.524305
+Number of people 23 are required for probability 0.492703
+23
