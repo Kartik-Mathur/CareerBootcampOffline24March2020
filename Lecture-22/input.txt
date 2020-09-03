@@ -1,5 +1,2 @@
-Hello
-Hell
-hello
-code
-Coding
+3
+2 10 4

@@ -40,10 +40,11 @@ public:
 	char ch;
 	unordered_map<char,node*> h;
 	bool isTerminal;
-
+	int freq;
 	node(char c){
 		ch = c;
 		isTerminal = false;
+		freq = 1;
 	}
 };
 
@@ -61,6 +62,7 @@ public:
 			if(temp->h.count(ch)){
 				// that means ch exists
 				temp = temp->h[ch];
+				temp->freq = temp->freq+1;
 			}
 			else{
 				// that means ch does not exist
@@ -81,6 +83,23 @@ public:
 			else return false;
 		}
 		return temp->isTerminal;
+	}
+
+	void printUnique(char *word){
+		node* temp = root;
+		for(int i = 0 ; word[i] != '\0' ;i++){
+			char ch = word[i];
+			if(temp->h.count(ch)){
+				temp = temp->h[ch];
+				if((temp->freq == 1)){
+					for(int j = 0 ; j <= i ; j++){
+						cout<<word[j];
+					}
+					cout<<endl;
+					return;
+				}
+			}
+		}
 	}
 };
 
