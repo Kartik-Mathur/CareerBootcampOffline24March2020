@@ -101,7 +101,7 @@ int main(){
 			}
 		}
 		scc();
-		for(ll i = 0 ; i <= n ; i++){
+		for(ll i = 0 ; i < 101 ; i++){
 			h[i].clear();
 			hrev[i].clear();
 		}
